@@ -1,0 +1,20 @@
+# Node (client)
+client/node_modules
+client/.env
+client/build
+
+# Laravel (backend)
+ecommerce-backend/vendor
+ecommerce-backend/storage/*.key
+ecommerce-backend/storage/logs/*.log
+ecommerce-backend/storage/framework/cache/*
+ecommerce-backend/storage/framework/sessions/*
+ecommerce-backend/storage/framework/views/*
+ecommerce-backend/.env
+ecommerce-backend/.phpunit.result.cache
+ecommerce-backend/public/storage
+ecommerce-backend/.vscode
+
+# Common
+.DS_Store
+.env.local
